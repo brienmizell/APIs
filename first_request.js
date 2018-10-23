@@ -6,7 +6,7 @@
 // });
 
 var request = require('request');
-request('http://www.googlefadsffas.com', function(error, response, body) {
+request('http://www.google.com', function(error, response, body) {
 	if (error) {
 		console.log('something went wrong');
 		console.log(error);
